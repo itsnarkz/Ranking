@@ -11,6 +11,9 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
+    position: fixed;
+    top: 0;
 }
 
 .nav_item {
@@ -87,8 +90,8 @@ body {
     display: none;
 
     text-align: center;
-    border: 1px solid white;
-    border-radius: 2px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
 }
 
 .drop_bar li {
@@ -97,8 +100,12 @@ body {
     background-color: #CDCDC3;  
 
     border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 100px;
     cursor: pointer;
+}
+
+#btn_log_out {
+    padding: 13px 10px 13px 10px;
 }
 
 .drop_bar li:hover {
@@ -108,11 +115,16 @@ body {
 
 /* footer */
 .footer {
-    height: 12vh;
+    height: 10vh;
     background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
+
+    position: fixed;
+    bottom: 0;
 }
 
 .nav_item_footer1, .nav_item_footer2 {
@@ -120,10 +132,11 @@ body {
     list-style:none;
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 .nav_item_footer1 {
-    margin-top: 23px;
+    margin-top: 12px;
 }
 
 .nav_item_footer1 li {
@@ -146,7 +159,6 @@ body {
 }
 
 #logo_footer {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,12 +168,10 @@ body {
     padding-left: 13px;
 
     font-size: small;
-}
 
-.nav_item_footer1_and_2 {
-    margin-top: 15px;
-    flex: 8;
-    padding-right: 180px;
+    position: fixed;
+    bottom: 0.5vh;
+    left: 5vh;
 }
 
 a {
@@ -189,7 +199,7 @@ a {
     align-items: center;
 
     background-color: #dad7d7;
-    height: 78vh;
+    height: 100vh;
     width: 100%;
     margin: 0;
 }
