@@ -5,7 +5,7 @@ body {
 
 /* header */
 .header {
-    height: 70px;
+    height: 60px;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -30,14 +30,15 @@ body {
 .nav_logo { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     font-size: small;
     align-items: center;
 }
 
 .logo{
-    height: 7vh;
-    width: 7vh;
+    height: 6vh;
+    width: 6vh;
     padding: 0;
 }
 
@@ -115,7 +116,7 @@ body {
 
 /* footer */
 .footer {
-    height: 70px;
+    height: 60px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -159,7 +160,6 @@ body {
 
 .logo_footer {
     flex: 2;
-    
 }
 
 .nav_item_footer1_and_2 {
@@ -180,7 +180,7 @@ a {
 .ranking {
     background-color: #CDCDC3;
     width: 60%;
-    height: 70vh;
+    height: 75vh;
     margin: 0 auto;
     margin-top: 20px;
 }
