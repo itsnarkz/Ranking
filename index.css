@@ -5,7 +5,7 @@ body {
 
 /* header */
 .header {
-    height: 10vh;
+    height: 70px;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ body {
 
 .logo{
     height: 7vh;
-    width: 8vh;
+    width: 7vh;
     padding: 0;
 }
 
@@ -90,8 +90,8 @@ body {
     display: none;
 
     text-align: center;
-    /* border: 1px solid white; */
-    border-radius: 10px;
+    /* border: 1px solid white;
+    border-radius: 5px; */
 }
 
 .drop_bar li {
@@ -100,7 +100,7 @@ body {
     background-color: #CDCDC3;  
 
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -115,10 +115,9 @@ body {
 
 /* footer */
 .footer {
-    height: 10vh;
+    height: 70px;
     background-color: #FFFFFF;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -158,20 +157,13 @@ body {
     font-size: 12px;
 }
 
-#logo_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.logo_footer {
+    flex: 2;
+    
+}
 
-    box-sizing: border-box;
-
-    padding-left: 13px;
-
-    font-size: small;
-
-    position: fixed;
-    bottom: 0.5vh;
-    left: 5vh;
+.nav_item_footer1_and_2 {
+    flex: 8;
 }
 
 a {
